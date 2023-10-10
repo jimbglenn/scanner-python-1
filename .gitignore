@@ -1,1 +1,5 @@
 .idea
+build
+dist
+src/scanner_python_1.egg-info
+scanner_python_1.egg-info

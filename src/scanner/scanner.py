@@ -45,8 +45,13 @@ def read_config_file():
         lines = file1.readlines()
         result = parse_config(lines)
         for server in result:
+            print("Running commands on", result[server]["ip"])
             run_commands(result[server])
         file1.close()
+
+
+def scanner():
+    read_config_file()
 
 
 if __name__ == '__main__':
