@@ -1,0 +1,14 @@
+127.0.0.1
+admin
+password
+ls -l
+ls -l ~/projects
+
+
+
+127.0.0.1
+admin
+password
+ls -l
+ls -l ~/projects
+
